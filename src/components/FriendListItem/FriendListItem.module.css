@@ -1,3 +1,33 @@
+.friendsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  padding: 10px;
+
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+
+  transition: 250ms;
+
+  &:hover {
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.friendsImg {
+}
+
+.friendsName {
+}
+
+.friendsStatus {
+}
+
 .online {
   color: green;
 }

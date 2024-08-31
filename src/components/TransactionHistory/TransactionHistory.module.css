@@ -1,0 +1,33 @@
+.tranTable {
+  border-collapse: collapse;
+  width: 600px;
+  margin: 0 auto;
+
+  margin-top: 50px;
+}
+
+.tranTable th,
+.tranTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+.tranTable td:hover {
+  background-color: rgb(97, 97, 97);
+  color: white;
+}
+
+.tranThead {
+  color: white;
+  background-color: #000;
+}
+
+.colorGray {
+  background-color: #fafafa;
+}
+
+.colorDarkGray {
+  background-color: rgb(176, 170, 170);
+}
